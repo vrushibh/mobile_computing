@@ -1,0 +1,21 @@
+name: bmi_calculator
+description: A simple BMI calculator app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Optional dependencies for future enhancements
+flutter_chart: ^latest_version  # For charts
+share: ^latest_version            # For sharing functionality
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

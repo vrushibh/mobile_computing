@@ -1,0 +1,18 @@
+name: expense_app
+description: A simple expense tracker app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+   sdk: flutter
+  provider: ^6.0.0             # Replace with the latest stable version
+  google_maps_flutter: ^2.0.0   # Replace with the latest stable version
+  intl: ^0.17.0                 # Replace with the latest stable version
+  cupertino_icons: ^1.0.8       # iOS style icons
+
+flutter:
+  uses-material-design: true
